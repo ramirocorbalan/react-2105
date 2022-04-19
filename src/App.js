@@ -1,14 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+
+import "./App.css";
+import StarWarsCharacters from "./views/StarWarsCharacters";
 
 function App() {
+
+
   return (
     <div className="App">
       <header className="App-header">
-
-
-
-
+        <StarWarsCharacters />
       </header>
     </div>
   );
